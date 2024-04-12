@@ -1,0 +1,38 @@
+/* Photo en arrière plan avec gradient d'une couleur unique et texte en blanc */
+body {
+    background-image:linear-gradient(rgba(104, 134, 231, 0.5), rgba(104, 134, 231, 0.5)),url("images/Etudiants_face_cp.png");
+    background-size: cover;
+    color: #FFFF;
+}
+
+/* Fond du formulaire en bleu foncé et largeur 60% page */
+form {
+      background-color: rgb(32, 16, 87);  
+      width: 60%;
+}
+/* titre texte centralisé */
+.entete {
+    text-align: center;
+}
+/* Largeur à 70% de la fenetre de saisir de données */
+.boite_saisir {
+    width: 70%;
+}
+
+/* Aligner  au centre */
+.center  { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+#submit { 
+    background: #06900f;
+    color: white;
+    width: 70%;
+}
+
+
+
+
